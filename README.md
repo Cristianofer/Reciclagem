@@ -7,3 +7,4 @@ O projeto destina-se a fornecer informações sobre a importância da coleta sel
 
 Sinta-se à vontade para contribuir para este projeto. Se encontrar algum problema ou tiver sugestões de melhorias.
 
+##

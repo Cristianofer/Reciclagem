@@ -1,6 +1,6 @@
-//function abrirAba(imagem, descricao) {
-    //window.open("informacoes.html?imagem=" + encodeURIComponent(imagem) + "&descricao=" + encodeURIComponent(descricao), "_blank");
-//}
+function abrirAba(imagem, descricao) {
+    window.open("informacoes.html?imagem=" + encodeURIComponent(imagem) + "&descricao=" + encodeURIComponent(descricao), "_blank");
+}
 
 function abrirJanelaFlutuante(descricao) {
     var janelaFlutuante = document.getElementById("janelaFlutuante");

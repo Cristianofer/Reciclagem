@@ -1,21 +1,16 @@
 <html lang="pt-br">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleta Seletiva</title>
-   <link rel="stylesheet" type="text/css" href="desing.css">
-    <script src="java.js"></script>
+   <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <script src="script.js"></script>
 </head>
 <body>
-    <!DOCTYPE html>
-    <html>
-    <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-    </body>
-    </html>
-    <header>
+
+    <header><u>
         <h1>Coleta Seletiva de Lixos</h1>
+      </u>
     </header>
 
     <section>
@@ -24,50 +19,56 @@
     </section>
 
     <section>
-        <h2>Núcleos dos Coletores de Lixo</h2>
-        <h3>Coleta Seletiva</h3>
-        <p>Coletores de Coleta Seletiva</p>
+        <h2>Coletores de Lixo</h2>
+ 
         
         <ul>
             <li class="coleta-item" data-imagem="azul" data-descricao="A reciclagem de papel é o reaproveitamento do papel não-funcional para produzir papel reciclado. A reciclagem de papéis velhos visa o aproveitamento de fibras celulósicas dos papéis e cartões usados para a produção de papéis novos" onmouseover="abrirJanelaFlutuante('Novo Texto para Papéis e Papelões');" onmouseout="fecharJanelaFlutuante();">
-    <img src="https://media.cotabest.com.br/media/sku/cesto-de-lixo-coleta-seletiva-capacidade-50-litros-boca-de-lobo-azul-unidade-jsn-un.png" alt="Azul"> Papéis e Papelões;
+    <img src="https://www.filtrotecgv.com.br/image/cache/catalog/LIXEIRAS/COLETA%20SELETIVA/Individual/Lixeira%20para%20Coleta%20Seletiva%2050%20Litros%20Azul%20JSN_02024-500x500.jpg" alt="Azul"> Papéis e Papelões;
 </li>
 
             
           
             <li class="coleta-item" data-imagem="verde" data-descricao="A Reciclagem do vidro é o processo pelo qual o vidro é reaproveitado para criar novos materiais, o processo se dá basicamente derretendo o vidro para sua reutilização. Dependendo da finalidade do seu uso, pode ser necessário separá-lo em cores diferentes. As três cores principais são:Vidro incolor,Vidro verde,Vidro marrom / âmbar"
-                
-                onclick="abrirAba('https://a-static.mlcdn.com.br/450x450/lixeira-50-litros-coleta-seletiva-vidros-marfimetal-web/marfimetal/lix372vdads/522f877d7d108798d3bc37ff5bf01095.jpeg', 'Vidros');">
+ onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">               
                 <img src="https://a-static.mlcdn.com.br/450x450/lixeira-50-litros-coleta-seletiva-vidros-marfimetal-web/marfimetal/lix372vdads/522f877d7d108798d3bc37ff5bf01095.jpeg" alt="Verde"> Vidros;
               
             </li>
-            <li class="coleta-item"data-imagem="vermelho" data-descricao="A reciclagem de plástico consiste no processo de reciclagem de artefatos fabricados a partir de resinas, geralmente sintéticas e derivadas do petróleo." onclick="abrirAba('https://www.filtrotecgv.com.br/image/cache/catalog/LIXEIRAS/COLETA%20SELETIVA/Individual/Lixeira%20para%20Coleta%20Seletiva%2050%20Litros%20Vermelha%20JSN_02021-500x500.jpg', 'Plásticos');">
+            <li class="coleta-item"data-imagem="vermelho" data-descricao="A reciclagem de plástico consiste no processo de reciclagem de artefatos fabricados a partir de resinas, geralmente sintéticas e derivadas do petróleo." 
+onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">
                 <img src="https://www.filtrotecgv.com.br/image/cache/catalog/LIXEIRAS/COLETA%20SELETIVA/Individual/Lixeira%20para%20Coleta%20Seletiva%2050%20Litros%20Vermelha%20JSN_02021-500x500.jpg" alt="Vermelho"> Plásticos;
             </li>
-            <li class="coleta-item" data-imagem="amarelo" data-descricao=" O processo de reaproveitamento do alumínio, o metal mais reciclado, consiste na retirada de impurezas (como areia, terra e metais ferrosos), na remoção das tintas e vernizes e, por fim, na fundição do metal." onclick="abrirAba('https://www.filtrotecgv.com.br/image/cache/catalog/LIXEIRAS/COLETA%20SELETIVA/Individual/Lixeira%20para%20Coleta%20Seletiva%2050%20Litros%20Amarela%20JSN_02023-500x500.jpg', 'Metais');">
+            <li class="coleta-item" data-imagem="amarelo" data-descricao=" O processo de reaproveitamento do alumínio, o metal mais reciclado, consiste na retirada de impurezas (como areia, terra e metais ferrosos), na remoção das tintas e vernizes e, por fim, na fundição do metal." 
+onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">
                 <img src="https://www.filtrotecgv.com.br/image/cache/catalog/LIXEIRAS/COLETA%20SELETIVA/Individual/Lixeira%20para%20Coleta%20Seletiva%2050%20Litros%20Amarela%20JSN_02023-500x500.jpg" alt="Amarelo"> Metais;
             </li>
-            <li class="coleta-item" data-imagem="marrom" data-descricao="A principal forma de se reciclar resíduos orgânicos é a compostagem.. Este processo envolve transformações (decomposição biológica) promovidas por microorganismos do solo que têm na matéria orgânica sua fonte de energia, nutrientes minerais e carbono." onclick="abrirAba('https://a-static.mlcdn.com.br/450x450/lixeira-para-coleta-seletiva-50-litros-marrom-jsn/artlimpbrasillicitacoesltda/23570/883160c7522952c160773e8004b29aad.jpeg', 'Resíduos Orgânicos');">
+            <li class="coleta-item" data-imagem="marrom" data-descricao="A principal forma de se reciclar resíduos orgânicos é a compostagem.. Este processo envolve transformações (decomposição biológica) promovidas por microorganismos do solo que têm na matéria orgânica sua fonte de energia, nutrientes minerais e carbono." 
+                onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">
                 <img src="https://a-static.mlcdn.com.br/450x450/lixeira-para-coleta-seletiva-50-litros-marrom-jsn/artlimpbrasillicitacoesltda/23570/883160c7522952c160773e8004b29aad.jpeg" alt="Marrom"> Resíduos Orgânicos;
             </li>
-            <li class="coleta-item"data-imagem="preto" data-descricao="O processo de reciclagem da madeira consiste na reciclagem de resíduos de madeira se transformados em pallets, briquetes, adubos orgânicos, lenha. E, ainda, podem ser utilizados na indústria moveleira."  onclick="abrirAba('https://www.benzolimp.com.br/image/cache/catalog/5cb495decb10cf0b7ca40449-500x500.jpg', 'Madeiras');">
+            <li class="coleta-item"data-imagem="preto" data-descricao="O processo de reciclagem da madeira consiste na reciclagem de resíduos de madeira se transformados em pallets, briquetes, adubos orgânicos, lenha. E, ainda, podem ser utilizados na indústria moveleira."  
+             onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">
                 <img src="https://www.benzolimp.com.br/image/cache/catalog/5cb495decb10cf0b7ca40449-500x500.jpg" alt="Preto"> Madeiras;
             </li>
-            <li class="coleta-item" data-imagem="cinza" data-descricao="processo acontece com uso de altas temperaturas ou reagentes químicos, fatores que variam de acordo com o tipo de produto e reação esperada. Reciclagem mecânica: consiste na trituração, limpeza e reprocessamento de dejetos de uma determinada classe (plástico, metal, vidro etc.)" onclick="abrirAba('https://d5gag3xtge2og.cloudfront.net/producao/33180701/G/lixeira_papeleira_com_suporte_50l_5.jpg', 'Materiais Não Reciclados');">
+            <li class="coleta-item" data-imagem="cinza" data-descricao="processo acontece com uso de altas temperaturas ou reagentes químicos, fatores que variam de acordo com o tipo de produto e reação esperada. Reciclagem mecânica: consiste na trituração, limpeza e reprocessamento de dejetos de uma determinada classe (plástico, metal, vidro etc.)" 
+                onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">
                 <img src="https://d5gag3xtge2og.cloudfront.net/producao/33180701/G/lixeira_papeleira_com_suporte_50l_5.jpg" alt="Cinza"> Materiais Não Reciclados;
             </li>
-            <li class="coleta-item" data-imagem="branco" data-descricao="O lixo é enviado para o tratamento adequado, que pode ser por meio de incineração (queimados em altas temperaturas) ou esterilização em enclaves próprios. Lembre-se de que medicamentos impróprios para uso (grupo B) devem ser devolvidos aos fabricantes." onclick="abrirAba('https://protelimp.com.br/wp-content/uploads/50-litros-coleta-seletiva-branca.jpg', 'Lixos Hospitalares');">
+            <li class="coleta-item" data-imagem="branco" data-descricao="O lixo é enviado para o tratamento adequado, que pode ser por meio de incineração (queimados em altas temperaturas) ou esterilização em enclaves próprios. Lembre-se de que medicamentos impróprios para uso (grupo B) devem ser devolvidos aos fabricantes."
+                onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">
                 <img src="https://protelimp.com.br/wp-content/uploads/50-litros-coleta-seletiva-branca.jpg" alt="Branco"> Lixos Hospitalares;
             </li>
-            <li class="coleta-item" data-imagem="laranja" data-descricao="Os resíduos perigosos estão presentes em vários materiais que utilizamos no nosso dia a dia. As lâmpadas fluorescentes, baterias, pilhas, remédios vencidos, cartuchos de tinta, latas de tinta, tonners, pneus, são alguns dos exemplos de resíduos perigosos que contêm significativa quantidade de substâncias químicas nocivas ao meio ambiente." onclick="abrirAba('https://cepel.vteximg.com.br/arquivos/ids/169474-1000-1000/38706-adesvio.png?v=637932287417230000', 'Resíduos Perigosos');">
+            <li class="coleta-item" data-imagem="laranja" data-descricao="Os resíduos perigosos estão presentes em vários materiais que utilizamos no nosso dia a dia. As lâmpadas fluorescentes, baterias, pilhas, remédios vencidos, cartuchos de tinta, latas de tinta, tonners, pneus, são alguns dos exemplos de resíduos perigosos que contêm significativa quantidade de substâncias químicas nocivas ao meio ambiente." onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">
                 <img src="https://cepel.vteximg.com.br/arquivos/ids/169474-1000-1000/38706-adesvio.png?v=637932287417230000" alt="Laranja"> Resíduos Perigosos;
             </li>
-            <li class="coleta-item" data-imagem="roxo" data-descricao="Os rejeitos de usinas nucleares são colocados em recipientes especiais e descartados em locais com revestimento de concreto, devendo permanecer confinados por um período longo que varia de 50 a 300 anos. No Brasil, este tipo de descarte é realizado nas mineradoras e em institutos energéticos." onclick="abrirAba('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS769iHNEUn80wHDQvHi7m3sFb3ZCoG093FyP0-2iEJi4DjSk3a', 'Resíduos Radioativos');">
+            <li class="coleta-item" data-imagem="roxo" data-descricao="Os rejeitos de usinas nucleares são colocados em recipientes especiais e descartados em locais com revestimento de concreto, devendo permanecer confinados por um período longo que varia de 50 a 300 anos. No Brasil, este tipo de descarte é realizado nas mineradoras e em institutos energéticos."
+                onmouseover="abrirJanelaFlutuante('Novo Texto ');" onmouseout="fecharJanelaFlutuante();">
                 <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS769iHNEUn80wHDQvHi7m3sFb3ZCoG093FyP0-2iEJi4DjSk3a" alt="Roxo"> Resíduos Radioativos;
             </li>
           <div class="janela-flutuante" id="janelaFlutuante"></div>
+           </ul>
     </section>
-        </ul>
+       
       <h4>CURIOSIDADES</h4>
         <p>Você sabia que a reciclagem de uma única lata de alumínio pode economizar energia suficiente para manter uma TV ligada durante três horas? Isso é bastante impressionante! Além disso, a reciclagem não apenas ajuda o meio ambiente, mas também fornece uma fonte de renda para muitas pessoas. No Brasil, cerca de 100 mil pessoas vivem exclusivamente de coletar latas de alumínio e recebem em média três salários mínimos mensais, segundo a Associação Brasileira do Alumínio.
 
@@ -81,10 +82,11 @@ A produção de papel também requer muitos recursos. Para produzir 1 tonelada d
 
 E as embalagens mistas, feitas de plástico e metal, metal e vidro e papel e metal? Nas compras, prefira embalagens mais simples. Mas, se não tiver opção, desmonte-a separando as partes de metal, plástico e vidro e deposite-as nos coletores apropriados.</p>
  
-     <footer>
+   <footer>
         <p>Trabalho Uninter  Coleta Seletiva</p>
         
-    </footer>
+    </footer> 
 
 </body>
 </html>
+
